@@ -224,7 +224,7 @@
 				<h4>Navigation</h4>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="#">Gallery</a></li>
 					<li><a href="blog.html">Traveler's Blog</a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
@@ -267,10 +267,40 @@
 				<p>1-800-Travel1(8728351)</p> <a href="http://www.luc.edu">www.luc.edu</a>
 			</div>
 		</div>
-	</footer>
-</div>
-</div>
+	
 
+<div>
+			<div >
+		
+		<!-- Social Media Buttons - CSS3 -->
+		<ul class="social" id="css3">
+		
+			<li class="instragram">
+				<a href="https://www.instagram.com/" target="_blank" class="info"><strong>Instragram</strong></a>
+			</li>
+			<li class="pinterest">
+				<a href="https://www.pinterest.com/" target="_blank" class="info"><strong>Pinterest</strong></a>
+			</li>
+			<li class="facebook">
+				<a href="http://www.facebook.com/" target="_blank" class="info"><strong>Facebook</strong></a>
+			</li>
+			<li class="flickr">
+				<a href="http://www.flickr.com/" target="_blank" class="info"><strong>Flickr</strong></a>
+			</li>
+			<li class="rss">
+				<a href="http://feeds2.feedburner.com/marcofolio" target="_blank" class="info"><strong>RSS</strong></a>
+			</li>
+			<li class="twitter">
+				<a href="http://twitter.com/" target="_blank" class="info"><strong>Twitter</strong></a>
+			</li>
+		</ul>
+		
+	</div>
+		</div>
+
+		</footer>
+</div>
+</div>
 <script src="Scripts/js1.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="Scripts/jquery.slicknav.js"></script>
@@ -281,10 +311,29 @@ prependTo:'#menu-mobile'
 });
 });
 </script>
+<script type="text/javascript" src="Scripts/tipuesearch.js"></script>
+<script type="text/javascript" src="Scripts/tipuesearch_set.js"></script>
+<script type="text/javascript" src="Scripts/tipuesearch_content.js"></script>
 <script>
 $(document).ready(function() {
-$('#tipue_search_input').tipuesearch();
+     $('#tipue_search_input').tipuesearch();
 });
 </script>
+<script>
+		$(function() {
+
+			$("#slideshow > div:gt(0)").hide();
+
+			setInterval(function() {
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			},  3000);
+
+		});
+	</script>
 </body>
 </html>

@@ -362,8 +362,8 @@ h1   {color: black}
  -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-li.delicious { background-image:url("../images/socialmedia/delicious.png"); }
-li.digg { background-image:url("../images/socialmedia/digg.png"); }
+li.instagram { background-image:url("../images/socialmedia/instagram.png"); }
+li.pinterest { background-image:url("../images/socialmedia/pinterest.png"); }
 li.facebook { background-image:url("../images/socialmedia/facebook.png"); }
 li.flickr { background-image:url("../images/socialmedia/flickr.png"); }
 li.linkedin { background-image:url("../images/socialmedia/linkedin.png"); }
