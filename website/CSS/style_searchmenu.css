@@ -1,5 +1,86 @@
 	/*Author: C_S_W_D: Michael Gusmano, Asif Huda, Syeda, Nosheen, and Joe
 License: Pending CSS v1.5 --*/
+
+
+   /* For Logo*/
+
+    * {
+  box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+  position: relative;
+  float:left;
+  padding:1px;
+  border-bottom: 1.5px solid #000;
+
+  
+}
+
+.col-a {
+  width: 80%;
+  /*background-color: #1d508d;*/
+  height: 71px;
+  background: rgba(26,126,219,1);
+background: -moz-linear-gradient(left, rgba(26,126,219,1) 0%, rgba(27,112,196,1) 30%, rgba(29,80,141,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(26,126,219,1)), color-stop(30%, rgba(27,112,196,1)), color-stop(100%, rgba(29,80,141,1)));
+background: -webkit-linear-gradient(left, rgba(26,126,219,1) 0%, rgba(27,112,196,1) 30%, rgba(29,80,141,1) 100%);
+background: -o-linear-gradient(left, rgba(26,126,219,1) 0%, rgba(27,112,196,1) 30%, rgba(29,80,141,1) 100%);
+background: -ms-linear-gradient(left, rgba(26,126,219,1) 0%, rgba(27,112,196,1) 30%, rgba(29,80,141,1) 100%);
+background: linear-gradient(to right, rgba(26,126,219,1) 0%, rgba(27,112,196,1) 30%, rgba(29,80,141,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a7edb', endColorstr='#1d508d', GradientType=1 );
+  
+}
+
+.col-b {
+  width: 20%;
+  background-color: #1d508d;
+  padding: 15px;
+}
+
+.row {
+  padding: 5px;
+}
+
+.header {
+  text-align: left;
+  font-size: 1em;
+  color: black;
+  font-family: fantasy;
+  margin-top: -13px;
+  margin-left: 13px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  
+}
+
+.pageName {
+  font-size: 13px;
+  color: white;
+  display: inline-block;
+  line-height: 1px;
+  text-shadow: 2px 3px 13px #101010;
+  position: relative;
+  top: -8px;
+  left: -9px;
+  font-family: Arial;
+  letter-spacing: 4px;
+
+}
+
+.row:before, .row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+  width: 100%;
+  }
+}
+
 * {
   box-sizing: border-box;}
 [class*="col-"] { display: inline-block; position: relative; float: left; }
