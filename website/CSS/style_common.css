@@ -17,6 +17,10 @@ html{
    margin-right: auto;
    margin-left: auto;
 }
+img {width: 100%:
+height:auto;}
+#exampleSlider {max-height: 450px; max-width: 750px; overflow: hidden; list-style: none; padding: 0; margin-left: 30%; margin-right:25%}
+
 
 /*
 Back to top button 

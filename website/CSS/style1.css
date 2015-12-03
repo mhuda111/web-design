@@ -23,17 +23,6 @@ h1{
 .view-first img {
     display: block;
 	width: 100%;
-	background-color: inherit;
-	border-radius: 25px;
-    border: 3px solid #1d508d;
-	padding-top: 2px;
-	padding-left: 2px;
-	padding-right: 2px;
-	padding-bottom: 2px;
-   -webkit-transition: all 0.2s linear;
-   -moz-transition: all 0.2s linear;
-   -ms-transition: all 0.2s linear;
-   transition: all 0.2s linear;
 }
 
 .text{
