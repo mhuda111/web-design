@@ -1,75 +1,284 @@
-﻿
-<!DOCTYPE html>
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" href="./CSS/style_searchmenu.css">
-			<link rel="stylesheet" href="./CSS/slicknav.css">
-			<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-			<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
-			<link rel="stylesheet" type="text/css" href="css/style_common.css">
-			<link rel="stylesheet" type="text/css" href="css/style1.css">
-
-
-			<title>Most visited Site</title>
-		</head>
-		<body>
-			<header>
-				<div class="logo">
-        <div class="row">
-          <div class="col-a">
-							<a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:57px; margin: 7px 0 -2px 10px"></a>
-              <div class="pageName">
-                <h1>History Travel</h1>
-              </div>
-             
-              <div class="header">
-                <p> Ancient  | History | Travel | Food</p> 
-              </div>
-          </div>    
-          
-          <div class="col-b">
-            <form action="search.html">
-              <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-            </form>
-          </div>
+﻿<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="./CSS/style_searchmenu.css">
+	<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
+	<link rel="stylesheet" type="text/css" href="css/style_common.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" href="CSS/slidebars.css">
+           <!-- Slidebars Theme -->
+    <link rel="stylesheet" href="CSS/slidebars-theme.css">
+	<title>Most visited Ancient Sites</title>
+</head>
+<body>
+		<header>
+		<div class="row">
+			<div class="col-a">
+				<div id="superhead">
+					<a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:50px; margin: 7px 0 -2px 10px"></a>
+				</div>
+			</div>
+			<div class="col-b">
+					<h1 class="header">Ancient  | History | Travel | Food</h1>
+				</div>
+			<div class="col-2"><form id="search" action="search.html">
+<input type="text" name="q" id="tipue_search_input" placeholder="Search" autocomplete="off" required>
+</form></div>
+		</div>
+	</header>
+	
+	<!-- Top Navigation Bar -->
+    <div class="sb-navbar sb-slide">
+    
+      <!-- Left Slidebar control -->
+      <div class="sb-toggle-left">
+      <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
       </div>
+      
+      
+      <!-- Menu Items -->
+      <ul class="sb-navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Locations</a>
+          
+        </li>
+        <li><a href="mostvisited.html">Most Visited</a>
+      </li>
+      <li><a href="7wondersoftheworld.html">7 Wonders of the World</a>
+    </li>
+    <li><a href="blog.html">Traveler's Blog</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  
 
-			</header>
-			
-			<div class="row">
-		<div class="col-12">
-			<nav id="menu-mobile">
-				<ul id="menu">
-					<li><a href="index.html">Home</a></li>
-					
-					<li><a href="#">Locations</a>
-					<ul>
-						<li><a href="asia.html">Asia</a></li>
-						<li><a href="europe.html">Europe</a></li>
-						<li><a href="africa.html">Africa</a></li>
-						<li><a href="northamerica.html">North America</a></li>
-						<li><a href="southamerica.html">South America</a></li>
-						<li><a href="#"> Central America </a></li>
-					</ul>
-				</li>
-				<li><a href="mostvisited.html">Most Visited</a>
-			</li>
-			<li><a href="#">Wonders of the World</a>
-			<ul>
-				<li><a href="#">Ancient</a></li>
-				<li><a href="#">Modern</a></li>
-			</ul>
-		</li>
-		<li><a href="blog.html">Traveler's Blog</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="contact.html">Contact Us</a></li>
-	</ul>
-</nav>
+
+</div> 
+    <!-- Left Slidebar -->
+    <div class="sb-slidebar sb-left"> 
+      
+      <!-- Lists in Slidebars -->
+      <ul class="sb-menu">
+        <li><a href="index.html">Home</a></li>
+
+        
+        <!-- First Dropdown Menu -->
+        <li><a class="sb-toggle-submenu" href="#">Locations<span class="sb-caret"></span></a>
+          <ul class="sb-submenu">
+            <li><a href="asia.html">Asia</a></li>
+            <li><a href="europe.html">Europe</a></li>
+            <li><a href="africa.html">Africa</a></li>
+            <li><a href="northamerica.html">North America</a></li>
+            <li><a href="southamerica.html">South America</a></li>
+            <li><a href="#"> Central America </a></li>
+
+          </ul>
+        </li>
+        
+        <li><a href="mostvisited.html">Most Visited</a></li>
+        <li><a href="7wondersoftheworld.html">7 Wonders of the World</a></li>
+        <li><a href="blog.html">Traveler's Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      
+    </div><!-- /.sb-slidebar .sb-left -->
+	<h1>Most Visited sites</h1>
+<section class="photo">
+<div>
+<ul id="exampleSlider">
+    <li><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgG8QdK8ptBRfG4LsirTE1-n-rwI6gq58c5-ZFIqyS_8nnIWtq" width="750px" height="550px" /></li>
+    <li><img src="http://romesultimate.com/wp-content/uploads/2015/07/ColosseumRomeItaly.jpg"  width="750px" height="550px" /></li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/All_Gizah_Pyramids.jpg"  width="750px" height="550px" /></li>
+    <li><img src="http://www.keytours.gr/uploads/images/shutterstock_3466487.jpg"  width="750px" height="550px"/></li>
+	    <li><img src="http://i.huffpost.com/gen/1349917/images/o-STONEHENGE-facebook.jpg" height="550px" /></li>
+    <li><img src="http://static.thousandwonders.net/Machu.Picchu.original.2637.jpg"  width="750px" height="550px" /></li>
+    <li><img src="http://media1.santabanta.com/full1/Architecture/TajMahal/tajmahal-35a.jpg"  width="750px" height="550px" /></li>
+		    <li><img src="http://paradiseintheworld.com/wp-content/uploads/2012/02/Angkor-Wat-Temple-Cambodia.jpg" height="550px" /></li>
+    <li><img src="http://travelphotos.picturetheplanet.com/Jordan/Petra-by-Day/i-sdg8KMZ/2/XL/Petra-day-Jordan-1-XL.jpg"  width="750px" height="550px" /></li>
+    <li><img src="http://www.danhallman.com/data/photos/1572_1070525_119.jpg"  width="750px" height="550px" /></li>
+
+
+</ul>
+</div>
+</section>
+
+<div id="sb-site">	
+
+<section class="photo">
+<div class="anchor">
+	<ul>
+<li><a href="#The Great Pyramid of Giza">Great Pyramid of Giza</a></li>
+<li><a href="#Grand Palace">Grand Palace</a></li>
+<li><a href="#The Statue of Zeus">Statue of Zeus</a></li>
+<li><a href="#The Temple of Artemis at Ephesus">Temple of Artemis at Ephesus</a></li>
+<li><a href="#The Mausoleum of Halicarnassus">Mausoleum of Halicarnassus</a></li>
+<li><a href="#The Colossus of Rhodes">Colossus of Rhodes</a></li>
+<li><a href="#The Lighthouse at Alexandria">Lighthouse at Alexandria</a></li>
+</ul>
+</div>
+
+<div class="photos">
+	<div >
+		<p >The Seven Wonders of the Ancient World, as first recorded by Philo of Byzantium in 225 BCE in his work, 
+		`On The Seven Wonders’, were: The Great Pyramid at Giza, Egypt; The Hanging Gardens of Babylon; The Statue of Zeus at Olympia, Greece; 
+		The Temple of Artemis at Ephesus; The Mausoleum at Halicarnassus; The Colossus of Rhodes and the Lighthouse at Alexandria, Egypt. Of these seven, only the Great Pyramid still stands today.
+	
+</div>
+
+
+<!-- lightbox container hidden with CSS -->
+	<div class="view view-first">
+<div id="videoModal" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true" style="display: block;"></div>
+  
+  <div class="modal-body"><iframe width="640" height="360" src="https://www.youtube.com/embed/dHqxmvx5yy4" frameborder="0" allowfullscreen></iframe></div>
+ 
 </div>
 </div>
 
+</section>
+<br>
+<section class="photo">
+<div class="photos">
+<a name="The Great Pyramid of Giza"></a> 
+	<h2>The Great Pyramid of Giza</h2>
+	<div class="view view-first">
+		<img src="http://mrfivestar.com/wp-content/uploads/2014/11/giza_cnt_30mar10_iStock_b.jpg" >
+	</div>
+	<h2>Description</h2>
+	<div >
+		<p >The Great Pyramid was built as a tomb for the 4th Dynasty Pharaoah Khufu (known as Cheops in Greek) between 2584 and 2561 BCE. It was the tallest human-made structure for over 3,800 years. Its interior continues to mystify and amaze archaeologists and its original purpose (other than simply an elaborate tomb) is debated hotly today, as is the means by which the Egyptians built so perfect and compelling a structure.</p>
+		<p>The Great Pyramid of Giza is the oldest monument on the list of the Seven Wonders of the Ancient World. It is also the only one left standing. It is a marvel of human engineering and construction, and its sheer size and scale rivals any structure built within the last few hundred years. It's construction, though, has always been the subject of much debate among scholars, because of its massive size and near perfect proportions. The Great Pyramid of Giza was built for the Fourth Dynasty Pharaoh Khufu (or Cheops), and was completed around 2560 B.C. It is part of a complex of 3 large pyramids in the Giza Necropolis located in modern Cairo, Egypt. The Great Pyramid is the largest of the three pyramids, and it is part of its own smaller complex that also contain 3 small pyramids that were built for Khufu's wives.
+
+It took approximately 20 years to complete, and several theories are debated by scholars as to how it was built and by whom. Some theories point to slave labor, but it seems more plausible that Egyptians themselves lent their efforts, working during the times of year when the Nile was flooded and their farm work would not have been possible. It would have been a sort of civil service.
+
+The pyramid was constructed out of stone blocks, each weighing at least 2 tons. There are theories suggesting that multiple men together maneuvered each block over a ramp that encircled the structure as it rose, or that they moved each stone up long ramps that got higher and longer as the pyramid got taller, or even that scaffolding was used. Many eschew each of these theories for different reasons, including the idea that wood that could have been used for scaffolding or ramps would have been at a premium, and using mud brick for those purposes would not have held under the enormous weight of each massive block. And, of course, there are the ideas that aliens built the pyramids. However the pyramid was constructed, it is a marvelous feat, and should be awed and respected, especially because it is standing today with relatively minor damage.
+
+The Great Pyramid, when completed, was faced in the gleeming white Tura limestone, which must have presented quite the spectacular appearance in the Egyptian desert. It was 481 feet high (it has since lost its top and is currently 25 feet less tall) and covers 13.1 acres. It is estimated that 2.3 million stone blocks were used, weighing between 2 and 15 tons each. The pyramid itself is filled with internal passages and chambers that would have housed the Pharaoh's granite sarcophagus and all the necessary goods for a fruitful journey to the afterlife. This would have included a great deal of precious metals and stones, food products, and hand-carved furnishings.
+
+There is no wonder why the Great Pyramid of Giza was on the list of the Seven Wonders of the Ancient World. It is a testament to human ingenuity and strength, and its size and near-perfect proportions must have been awe-inspiring to behold. </p>
+		<a href="http://www.history.com/topics/ancient-history/the-egyptian-pyramids" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+<section class="photo">
+<div class="photos">
+<a name="Grand Palace"></a> 
+	<h2>Grand Palace</h2>
+		<div class="view view-first">
+	<img src="http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/attraction-palace/grand-palace/pagePropertiesImage/bangkok-grand-palate-6.jpg" width="750px" height="550px" ></div>
+	<h2>Description</h2>
+	<div >
+		<p >Grand Palace, undoubtedly the city's most famous landmark.Built in 1782 - and for 150 years the home of the Thai King, the Royal court and the administrative seat of government -the Grand Palace of Bangkok is a grand old dame indeed, that continues to have visitors in awe with its beautiful architecture and intricate detail, all of which is a proud salute to the creativity and craftsmanship of Thai people.Within its walls were also the Thai war ministry, state departments, and even the mint. Today, the complex remains the spiritual heart of the Thai Kingdom.</p>
+		<p>The palace complex, like the rest of Ratanakosin Island, is laid very similar to the palaces of Ayutthaya, the glorious former capital of Siam which was raided by the Burmese. The Outer Court, near the entrance, used to house government departments in which the King was directly involved, such as civil administration, the army and the treasury. The Temple of the Emerald Buddha is located in one corner of this outer court. The Central Court is where the residence of the King and halls used for conducting state business were located. Only two of the throne halls are open to the public, but you'll be able to marvel at the exquisite detail on the facades of these impressive structures.
+
+The Inner Court is where the King's royal consorts and daughters lived. The Inner Court was like a small city entirely populated by women and boys under the age of puberty. Even though no royalty currently reside in the inner court, it is still completely closed off to the public. Despite the proximity of the Grand Palace and Wat Phra Kaew, there's a distinct contrast in style between the very Thai Temple of the Emerald Buddha and the more European inspired design of the Grand Palace (the roof being the main exception). Other highlights are Boromabiman Hall and Amarinda Hall, the original residence of King Rama I and the Hall of Justice.</p>
+		<a href="http://www.bangkok.com/attraction-palace/grand-palace.htm#" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+<section class="photo">
+<div class="photos">
+<a name="Great Wall of China"></a> 
+	<h2>Great Wall of China</h2>
+		<div class="view view-first">
+	<img src="http://travelhdwallpapers.com/wp-content/uploads/2014/04/Wall-of-China-1.jpg" width="750px" height="550px" ></div>
+	<h2>Description</h2>
+	<div >
+		<p >The Great Wall, one of the greatest wonders of the world, was listed as a World Heritage by UNESCO in 1987.
+			Just like a gigantic dragon, it winds up and down across deserts, grasslands, mountains and plateaus, stretching approximately 13,170 miles (21,196 kilometers) from east to west of China.With a history of more than 2,000 years, some of the sections are now in ruins or have disappeared.
+		However, it is still one of the most appealing attractions all around the world owing to its architectural grandeur and historical significance.Excitement abounds regarding the vicissitude of the Wall of the Qin, Han, and Ming Dynasties.
+
+The Great Wall was originally built in the Spring and Autumn, and Warring States Periods as a defensive fortification by the three states: Yan, Zhao and Qin. It went through constant extensions and repairs in later dynasties. It began as independent walls for different states when it was first built, and did not become the "Great" wall until the Qin Dynasty.
+
+Emperor Qin Shihuang succeeded in his effort to have the walls joined together to fend off the invasions from the Huns in the north. Since then, the Wall has served as a monument of the Chinese nation throughout history.</p>
+		<a href="http://www.travelchinaguide.com/china_great_wall/" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+<section class="photo">
+<div class="photos">
+<a name="Taj Mahal"></a> 
+	<h2>Taj Mahal</h2>
+		<div class="view view-first">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Miniaturk_009.jpg" width="750px" height="550px" ></div>
+	<h2>Description</h2>
+	<div >
+<p>Taj Mahal is regarded as one of the eight wonders of the world, and some Western historians have noted that its architectural beauty has never been surpassed.
+			The Taj is the most beautiful monument built by the Mughals, the Muslim rulers of India. Taj Mahal is built entirely of white marble. Its stunning architectural beauty is beyond adequate description, particularly at dawn and sunset.
+			The Taj seems to glow in the light of the full moon. On a foggy morning, the visitors experience the Taj as if suspended when viewed from across the Jamuna river.
+			Taj Mahal was built by a Muslim, Emperor Shah Jahan (died 1666 C.E.) in the memory of his dear wife and queen Mumtaz Mahal at Agra, India. It is an "elegy in marble" or some say an expression of a "dream."
+		Taj Mahal (meaning Crown Palace) is a Mausoleum that houses the grave of queen Mumtaz Mahal at the lower chamber.</p>
+		<a href="Welcome To Official WebSite of Taj Mahal-U.P.Tourism" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+<section class="photo">
+<div class="photos">
+<a name="The Colosseum"></a> 
+	<h2>The Colosseum</h2>
+		<div class="view view-first">
+	<img src="Images/europe/thecolloseum.jpg" width="750px" height="550px" ></div>
+	<h2>Description</h2>
+	<div >
+		<p >The Colosseum, Rome, Italy – An elliptical amphitheater in the center of the city of Rome, Italy. Built of concrete and stone, it was the largest amphitheater of the Roman Empire, and is considered one of the greatest works of Roman architecture and engineering. It is the largest amphitheater in the world and could hold between 50,000 and 80,000 spectators. Built in AD 70-80, it is an UNESCO World Heritage Site and one of the most famous structures in the world. Even after the decadent Roman emperor Nero took his own life in A.D. 68, his misrule and excesses fueled a series of civil wars. No fewer than four emperors took the throne in the tumultuous year after Nero’s death; the fourth, Vespasian, would end up ruling for 10 years (A.D. 69-79). The Flavian emperors, as Vespasian and his sons Titus (79-81) and Domitian (81-96) were known, attempted to tone down the excesses of the Roman court, restore Senate authority and promote public welfare. Around 70-72, Vespasian returned to the Roman people the lush land near the center of the city, where Nero had built an enormous palace for himself after a great fire ripped through Rome in A.D. 64. On the site of that Golden Palace, he decreed, would be built a new amphitheater where the public could enjoy gladiatorial combats and other forms of entertainment.
+
+</p>
+		<a href="http://www.history.com/topics/ancient-history/colosseum" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+
+<section class="photo">
+<div class="photos">
+<a name="Machu Picchu"></a> 
+	<h2>Machu Picchu</h2>
+		<div class="view view-first">
+	<img src="http://media-cdn.tripadvisor.com/media/photo-s/01/41/ef/04/winawayna.jpg" width="750px" height="550px" ></div>
+	<h2>Description</h2>
+	<div >
+		<p>Machu Picchu, Peru - Machu Picchu, The Lost city of the Incas, is a mystical, sacred place. Touched by the clouds, the ruins are one of the most enigmatic and beautiful ancient ruins in the world. Rediscovered on July 24, 1911 by Yale archaeologist Hiram Bingham, Machu Picchu (meaning 'Old Peak' in Quechua, the language spoken by the Incas) was thought to be a sanctuary for the preparation of priestesses and brides for the Inca nobility. The dramatic setting in a remote area of the Peruvian Andes enhances the shroud of mystery even more. The ruins lie near the city Cuzco in Southeastern Peru. An absolute wonder of human heritage, Machu Picchu will touch your heart and soul in many ways. Highly recommended! Embedded within a dramatic landscape at the meeting point between the Peruvian Andes and the Amazon Basin, the Historic Sanctuary of Machu Picchu is among the greatest artistic, architectural and land use achievements anywhere and the most significant tangible legacy of the Inca civilization. Recognized for outstanding cultural and natural values, the mixed World Heritage property covers 32,592 hectares of mountain slopes, peaks and valleys surrounding its heart, the spectacular archaeological monument of “La Ciudadela” (the Citadel) at more than 2,400 meters above sea level. Built in the fifteenth century Machu Picchu was abandoned when the Inca Empire was conquered by the Spaniards in the sixteenth century. It was not until 1911 that the archaeological complex was made known to the outside world.
+The approximately 200 structures making up this outstanding religious, ceremonial, astronomical and agricultural centre are set on a steep ridge, crisscrossed by stone terraces. Following a rigorous plan the city is divided into a lower and upper part, separating the farming from residential areas, with a large square between the two. To this day, many of Machu Picchu’s mysteries remain unresolved, including the exact role it may have played in the Incas’ sophisticated understanding of astronomy and domestication of wild plant species.
+The massive yet refined architecture of Machu Picchu blends exceptionally well with the stunning natural environment, with which it is intricately linked. Numerous subsidiary centres, an extensive road and trail system, irrigation canals and agricultural terraces bear witness to longstanding, often on-going human use. The rugged topography making some areas difficult to access has resulted in a mosaic of used areas and diverse natural habitats. The Eastern slopes of the tropical Andes with its enormous gradient from high altitude “Puna” grasslands and Polylepis thickets to montane cloud forests all the way down towards the tropical lowland forests are known to harbour a rich biodiversity and high endemism of global significance. Despite its small size the property contributes to conserving a very rich habitat and species diversity with remarkable endemic and relict flora and fauna.
+
+
+
+</p>
+		<a href="hhttp://www.history.com/topics/machu-picchu" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+
+
+
+<br>
+
+
+<p id="back-top">
+		<a href="#top"><span></span>Go Top</a>
+	</p>
+	
 <div class="row">
 <div class="col-12">
 	<footer class="footer">
@@ -78,7 +287,7 @@
 				<h4>Navigation</h4>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="mostvisited.html">Most Visited Sites</a></li>
+					<li><a href="#">Gallery</a></li>
 					<li><a href="blog.html">Traveler's Blog</a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
@@ -103,12 +312,12 @@
 			<div class="mostvistedlinks">
 				<h4>Most Visted Sites</h4>
 			  	<ul>
-					<li><a href="mostvisited.html">Most</a></li>
-					<li><a href="mostvisited.html">Top</a></li>
-					<li><a href="mostvisited.html"> 10</a></li>
-					<li><a href="mostvisited.html">visited</a></li>
-					<li><a href="mostvisited.html">sites</a></li>
-					<li><a href="mostvisited.html">in the world</a></li>
+					<li><a href="#">Asia Top 10</a></li>
+					<li><a href="#">Europe Top 10</a></li>
+					<li><a href="#">Africa Top 10</a></li>
+					<li><a href="#">North America Top 10</a></li>
+					<li><a href="#">South America Top 10</a></li>
+					<li><a href="#">Central America Top 10</a></li>
 				</ul>
 			</div>
 		</div>
@@ -121,6 +330,10 @@
 				<p>1-800-Travel1(8728351)</p> <a href="http://www.luc.edu">www.luc.edu</a>
 			</div>
 		</div>
+	
+
+<div>
+		
 		<div >
 		
 		<!-- Social Media Buttons - CSS3 -->
@@ -143,25 +356,19 @@
 			</li>
 			<li class="twitter">
 				<a href="http://twitter.com/" target="_blank" class="info"><strong>Twitter</strong></a>
-	
-
-<div>
+			</li>
+		</ul>
 		
-	</footer>
+	</div>
+
 		</div>
 
-		</footer></div>
+		</footer>
+</div>
+</div>
+</div>
 </div>
 <script src="Scripts/js1.js"></script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="Scripts/jquery.slicknav.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav({
-prependTo:'#menu-mobile'
-});
-});
-</script>
 <script type="text/javascript" src="Scripts/tipuesearch.js"></script>
 <script type="text/javascript" src="Scripts/tipuesearch_set.js"></script>
 <script type="text/javascript" src="Scripts/tipuesearch_content.js"></script>
@@ -185,6 +392,74 @@ $(document).ready(function() {
 			},  3000);
 
 		});
+	</script>
+	<script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+</script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="Scripts/slidebars.min.js"></script>
+    <script>
+      (function($) {
+        $(document).ready(function() {
+          $.slidebars();
+        });
+      }) (jQuery);
+    </script>
+    <!-- Slidebars Theme JS
+       This should be included after you have initiated Slidebars. -->
+    <script src="Scripts/slidebars-theme.js"></script>
+	<script>
+	$(function () {
+    
+    /* SET PARAMETERS */
+    var change_img_time 	= 5000;	
+    var transition_speed	= 300;
+    
+    var simple_slideshow	= $("#exampleSlider"),
+        listItems 			= simple_slideshow.children('li'),
+        listLen				= listItems.length,
+        i 					= 0,
+		
+        changeList = function () {
+		
+			listItems.eq(i).fadeOut(transition_speed, function () {
+				i += 1;
+				if (i === listLen) {
+					i = 0;
+				}
+				listItems.eq(i).fadeIn(transition_speed);
+			});
+
+        };
+		
+    listItems.not(':first').hide();
+    setInterval(changeList, change_img_time);
+	
+});
 	</script>
 </body>
 </html>

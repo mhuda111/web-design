@@ -1,110 +1,115 @@
-
 <!DOCTYPE html>
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" href="./CSS/style_searchmenu.css">
-			<link rel="stylesheet" href="./CSS/slicknav.css">
-			<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-			<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
-			<link rel="stylesheet" type="text/css" href="css/style_common.css">
-			<link rel="stylesheet" type="text/css" href="css/style1.css">
-
-
-			<title>Contact Us</title>
-		</head>
-		<body>
-			<header>
-				<div class="logo">
-        <div class="row">
-          <div class="col-a">
-							<a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:57px; margin: 7px 0 -2px 10px"></a>
-              <div class="pageName">
-                <h1>History Travel</h1>
-              </div>
-             
-              <div class="header">
-                <p> Ancient  | History | Travel | Food</p> 
-              </div>
-          </div>    
-          
-          <div class="col-b">
-            <form action="search.html">
-              <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-            </form>
-          </div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="./CSS/style_searchmenu.css">
+	<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
+	         <link rel="stylesheet" href="CSS/slidebars.css">
+	         <!-- Slidebars Theme -->
+		<link rel="stylesheet" href="CSS/slidebars-theme.css">
+<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<title>History Travel</title>
+</head>
+<body>
+	<header>
+		<div class="row">
+			<div class="col-a">
+				<div id="superhead">
+					<a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:50px; margin: 7px 0 -2px 10px"></a>
+					<b style=" font-family: playball; color: #fff; whitespace: nowrap; font-size: 48px;">History Travel</b>
+				</div>
+			</div>
+			<div class="col-b">
+					<h1 class="header">Ancient  | History | Travel | Food</h1>
+				</div>
+			<div class="col-2"><form id="search" action="search.html">
+<input type="text" name="q" id="tipue_search_input" placeholder="Search" autocomplete="off" required>
+</form></div>
+		</div>
+	</header>
+<!-- Top Navigation Bar -->
+    <div class="sb-navbar sb-slide">
+    
+      <!-- Left Slidebar control -->
+      <div class="sb-toggle-left">
+      <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
       </div>
+      
+      
+      <!-- Menu Items -->
+      <ul class="sb-navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Locations</a>
+          
+        </li>
+        <li><a href="mostvisited.html">Most Visited</a>
+      </li>
+      <li><a href="7wondersoftheworld.html">7 Wonders of the World</a>
+    </li>
+    <li><a href="blog.html">Traveler's Blog</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  
 
-			</header>
-			
-			<div class="row">
-		<div class="col-12">
-			<nav id="menu-mobile">
-				<ul id="menu">
-					<li><a href="index.html">Home</a></li>
-					
-					<li><a href="#">Locations</a>
-					<ul>
-						<li><a href="asia.html">Asia</a></li>
-						<li><a href="europe.html">Europe</a></li>
-						<li><a href="africa.html">Africa</a></li>
-						<li><a href="northamerica.html">North America</a></li>
-						<li><a href="southamerica.html">South America</a></li>
-						<li><a href="#"> Central America </a></li>
-					</ul>
-				</li>
-				<li><a href="mostvisited.html">Most Visited</a>
-			</li>
-			<li><a href="#">Wonders of the World</a>
-			<ul>
-				<li><a href="#">Ancient</a></li>
-				<li><a href="#">Modern</a></li>
-			</ul>
-		</li>
-		<li><a href="blog.html">Traveler's Blog</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="contact.html">Contact Us</a></li>
-	</ul>
-</nav>
-</div>
-</div>
+
+</div> 
+    <!-- Left Slidebar -->
+    <div class="sb-slidebar sb-left"> 
+      
+      <!-- Lists in Slidebars -->
+      <ul class="sb-menu">
+        <li><a href="index.html">Home</a></li>
+
+        
+        <!-- First Dropdown Menu -->
+        <li><a class="sb-toggle-submenu" href="#">Locations<span class="sb-caret"></span></a>
+          <ul class="sb-submenu">
+            <li><a href="asia.html">Asia</a></li>
+            <li><a href="europe.html">Europe</a></li>
+            <li><a href="africa.html">Africa</a></li>
+            <li><a href="northamerica.html">North America</a></li>
+            <li><a href="southamerica.html">South America</a></li>
+            <li><a href="centralamerica.html"> Central America </a></li>
+
+          </ul>
+        </li>
+        
+        <li><a href="mostvisited.html">Most Visited</a></li>
+        <li><a href="7wondersoftheworld.html">7 Wonders of the World</a></li>
+        <li><a href="blog.html">Traveler's Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      
+    </div><!-- /.sb-slidebar .sb-left -->
+
+<div id="sb-site">
 <div class="travelwrap contact">
 <h1>Contact Us </h1>
-<p>If you have any questions, comments, suggestions, please complete the form below or reach out to us via mail or telephone:</p>
+<p>If you have any questions or comments please complete the form below or reach out to us via mail or telephone:</p>
 <p>Address: 26 East Pearson Street Chicago, IL USA</p>
 <p>Phone: 1-800-Travel1</p>
 </div>
 <div class="row">
 <div class="col-12">
-<section class="contact_content">
-  <div class="container">
-    <div id = "contact_text">
-      <iframe src="https://docs.google.com/forms/d/1Z4Yn_TmsRe8KAidvXHQE7Jdg1fS9OJDpz_FO-ajUxyU/viewform?embedded=true" width="525" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    </div>
-    <div id="map"></div>
-  </div>
-</div>
-</div>
-<div class="clearfix"></div>
-</section>
-
-<div class="row">
-<div class="col-12">
 	<footer class="footer">
-		<div class="col-3">
+		<div class="col-4">
 			<div class = "bottomnav">
 				<h4>Navigation</h4>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="mostvisited.html">Most Visited Sites</a></li>
+					<li><a href="mostvisited.html">Most Visited</a></li>
+					<li><a href="7wondersoftheworld.html">Wonders of the Ancient World</a></li>
 					<li><a href="blog.html">Traveler's Blog</a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
-		<div class="col-3">
+		<div class="col-4">
 			<div class="locationlinks">
 				<h4>Locations</h4>
 			    <ul>
@@ -118,21 +123,7 @@
 			</div>
 		</div>
 
-		<div class="col-3">
-			<div class="mostvistedlinks">
-				<h4>Most Visted Sites</h4>
-			  	<ul>
-					<li><a href="mostvisited.html">Most</a></li>
-					<li><a href="mostvisited.html">Top</a></li>
-					<li><a href="mostvisited.html"> 10</a></li>
-					<li><a href="mostvisited.html">visited</a></li>
-					<li><a href="mostvisited.html">sites</a></li>
-					<li><a href="mostvisited.html">in the world</a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="col-3">
+		<div class="col-4">
 			<div class = "bottomcontact">
 				<h4>Contact Us</h4>
 				<p>26 East Pearson Street</p>
@@ -140,6 +131,10 @@
 				<p>1-800-Travel1(8728351)</p> <a href="http://www.luc.edu">www.luc.edu</a>
 			</div>
 		</div>
+	
+<div class="row">
+<div>
+		
 		<div >
 		
 		<!-- Social Media Buttons - CSS3 -->
@@ -162,49 +157,18 @@
 			</li>
 			<li class="twitter">
 				<a href="http://twitter.com/" target="_blank" class="info"><strong>Twitter</strong></a>
-	
-
-<div>
+			</li>
+		</ul>
 		
-	</footer>
+	</div>
+
 		</div>
-
-		</footer></div>
 </div>
-<script src="Scripts/js1.js"></script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="Scripts/jquery.slicknav.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav({
-prependTo:'#menu-mobile'
-});
-});
-</script>
-<script type="text/javascript" src="Scripts/tipuesearch.js"></script>
-<script type="text/javascript" src="Scripts/tipuesearch_set.js"></script>
-<script type="text/javascript" src="Scripts/tipuesearch_content.js"></script>
-<script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch();
-});
-</script>
-<script>
-		$(function() {
-
-			$("#slideshow > div:gt(0)").hide();
-
-			setInterval(function() {
-			  $('#slideshow > div:first')
-			    .fadeOut(1000)
-			    .next()
-			    .fadeIn(1000)
-			    .end()
-			    .appendTo('#slideshow');
-			},  3000);
-
-		});
-	</script>	</script><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		</footer>
+</div>
+</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js?v=3&amp;;sensor=false&amp;;key=AIzaSyDrEYVWmo--EyP0lVqGXP7kx0HHp85Kj9I&amp;callback=loadmap" defer></script>
 <script>
 function loadmap() {
@@ -219,19 +183,22 @@ var map = new google.maps.Map(mapCanvas, mapOptions)
 google.maps.event.addDomListener(window, 'load', loadmap);
 </script>
 <script src="Scripts/js1.js"></script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="Scripts/jquery.slicknav.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-$('#menu').slicknav({
-prependTo:'#menu-mobile'
-});
-});
-</script>
 <script>
 $(document).ready(function() {
 $('#tipue_search_input').tipuesearch();
 });
 </script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="Scripts/slidebars.min.js"></script>
+    <script>
+      (function($) {
+        $(document).ready(function() {
+          $.slidebars();
+        });
+      }) (jQuery);
+    </script>
+    <!-- Slidebars Theme JS
+       This should be included after you have initiated Slidebars. -->
+    <script src="Scripts/slidebars-theme.js"></script>
 </body>
 </html>

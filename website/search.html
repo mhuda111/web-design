@@ -1,80 +1,108 @@
-
 <!DOCTYPE html>
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" href="./CSS/style_searchmenu.css">
-			<link rel="stylesheet" href="./CSS/slicknav.css">
-			<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-			<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
-			<link rel="stylesheet" type="text/css" href="css/style_common.css">
-			<link rel="stylesheet" type="text/css" href="css/style1.css">
 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>History Travel Search</title>
+	<link rel="stylesheet" href="./CSS/style_searchmenu.css">
+     <link rel="stylesheet" href="CSS/slidebars.css">
+       
+    <link rel="stylesheet" href="CSS/slidebars-theme.css">
+	<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="Scripts/tipuesearch_set.js"></script>
+<script type="text/javascript" src="Scripts/tipuesearch_content.js"></script>
+<script type="text/javascript" src="Scripts/tipuesearch.js"></script>
+<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
+<script type="text/javascript" src="Scripts/tipuesearch.min.js"></script>
+</head>
+<body>
 
-			<title>Asia</title>
-		</head>
-		<body>
-			<header>
-				<div class="logo">
-        <div class="row">
-          <div class="col-a">
-							<a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:57px; margin: 7px 0 -2px 10px"></a>
-              <div class="pageName">
-                <h1>History Travel</h1>
-              </div>
-             
-              <div class="header">
-                <p> Ancient  | History | Travel | Food</p> 
-              </div>
-          </div>    
-          
-          <div class="col-b">
-            <form action="search.html">
-              <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-            </form>
-          </div>
+<!-- head -->
+<body>
+<header>
+    <div class="row">
+      <div class="col-a">
+        <div id="superhead">
+          <a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:50px; margin: 7px 0 -2px 10px"></a>
+		<b style=" font-family: playball; color: #fff; whitespace: nowrap; font-size: 48px;">History Travel</b>
+
+        </div>
+      </div>
+      <div class="col-b">
+          <h1 class="header">Ancient  | History | Travel | Food</h1>
+        </div>
+      <div class="col-2"><form id="search" action="search.html">
+<input type="text" name="q" id="tipue_search_input" placeholder="Search" autocomplete="off" required>
+</form></div>
+    </div>
+  </header>
+
+    <!-- Top Navigation Bar -->
+    <div class="sb-navbar sb-slide">
+    
+      <!-- Left Slidebar control -->
+      <div class="sb-toggle-left">
+      <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
       </div>
 
-			</header>
-			
-			<div class="row">
-		<div class="col-12">
-			<nav id="menu-mobile">
-				<ul id="menu">
-					<li><a href="index.html">Home</a></li>
-					
-					<li><a href="#">Locations</a>
-					<ul>
-						<li><a href="asia.html">Asia</a></li>
-						<li><a href="europe.html">Europe</a></li>
-						<li><a href="africa.html">Africa</a></li>
-						<li><a href="northamerica.html">North America</a></li>
-						<li><a href="southamerica.html">South America</a></li>
-						<li><a href="#"> Central America </a></li>
-					</ul>
-				</li>
-				<li><a href="mostvisited.html">Most Visited</a>
-			</li>
-			<li><a href="#">Wonders of the World</a>
-			<ul>
-				<li><a href="#">Ancient</a></li>
-				<li><a href="#">Modern</a></li>
-			</ul>
-		</li>
-		<li><a href="blog.html">Traveler's Blog</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="contact.html">Contact Us</a></li>
-	</ul>
-</nav>
-</div>
-</div><!-- body -->
+      
+      <!-- Menu Items -->
+      <ul class="sb-navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li ><a href="#">Locations</a>
+          
+        </li>
+        <li><a href="mostvisited.html">Most Visited</a>
+      </li>
+      <li><a href="7wondersoftheworld.html">Wonders of the World</a>
+    </li>
+    <li><a href="blog.html">Traveler's Blog</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  
+
+
+</div> 
+    <!-- Left Slidebar -->
+    <div class="sb-slidebar sb-left"> 
+      
+      <!-- Lists in Slidebars -->
+      <ul class="sb-menu">
+        <li><a href="index.html">Home</a></li>
+
+        
+        <!-- First Dropdown Menu -->
+        <li><a class="sb-toggle-submenu" href="#">Locations<span class="sb-caret"></span></a>
+          <ul class="sb-submenu">
+            <li><a href="asia.html">Asia</a></li>
+            <li><a href="europe.html">Europe</a></li>
+            <li><a href="africa.html">Africa</a></li>
+            <li><a href="northamerica.html">North America</a></li>
+            <li><a href="southamerica.html">South America</a></li>
+            <li><a href="centralamerica.html"> Central America </a></li>
+
+          </ul>
+        </li>
+        
+        <li><a href="mostvisited.html">Most Visited</a></li>
+        <li><a href="7wondersoftheworld.html">Wonders of the World</a></li>
+        <li><a href="blog.html">Traveler's Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      
+    </div><!-- /.sb-slidebar .sb-left -->
+<!-- body -->
 <div class="block" style="padding-top: 39px;">
 
 
 <div id="tipue_search_content"></div>
 </div>
-
 
 <div class="row">
 <div class="col-12">
@@ -84,7 +112,7 @@
 				<h4>Navigation</h4>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="mostvisited.html">Most Visited Sites</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
 					<li><a href="blog.html">Traveler's Blog</a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
@@ -109,12 +137,12 @@
 			<div class="mostvistedlinks">
 				<h4>Most Visted Sites</h4>
 			  	<ul>
-					<li><a href="mostvisited.html">Most</a></li>
-					<li><a href="mostvisited.html">Top</a></li>
-					<li><a href="mostvisited.html"> 10</a></li>
-					<li><a href="mostvisited.html">visited</a></li>
-					<li><a href="mostvisited.html">sites</a></li>
-					<li><a href="mostvisited.html">in the world</a></li>
+					<li><a href="#">Asia Top 10</a></li>
+					<li><a href="#">Europe Top 10</a></li>
+					<li><a href="#">Africa Top 10</a></li>
+					<li><a href="#">North America Top 10</a></li>
+					<li><a href="#">South America Top 10</a></li>
+					<li><a href="#">Central America Top 10</a></li>
 				</ul>
 			</div>
 		</div>
@@ -127,39 +155,11 @@
 				<p>1-800-Travel1(8728351)</p> <a href="http://www.luc.edu">www.luc.edu</a>
 			</div>
 		</div>
-		<div >
-		
-		<!-- Social Media Buttons - CSS3 -->
-		<ul class="social" id="css3">
-		
-			<li class="instragram">
-				<a href="https://www.instagram.com/" target="_blank" class="info"><strong>Instragram</strong></a>
-			</li>
-			<li class="pinterest">
-				<a href="https://www.pinterest.com/" target="_blank" class="info"><strong>Pinterest</strong></a>
-			</li>
-			<li class="facebook">
-				<a href="http://www.facebook.com/" target="_blank" class="info"><strong>Facebook</strong></a>
-			</li>
-			<li class="flickr">
-				<a href="http://www.flickr.com/" target="_blank" class="info"><strong>Flickr</strong></a>
-			</li>
-			<li class="rss">
-				<a href="http://feeds2.feedburner.com/marcofolio" target="_blank" class="info"><strong>RSS</strong></a>
-			</li>
-			<li class="twitter">
-				<a href="http://twitter.com/" target="_blank" class="info"><strong>Twitter</strong></a>
-	
-
-<div>
-		
 	</footer>
-		</div>
-
-		</footer></div>
 </div>
-<script src="Scripts/js1.js"></script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</div>
+
+
 <script src="Scripts/jquery.slicknav.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -168,29 +168,11 @@ prependTo:'#menu-mobile'
 });
 });
 </script>
-<script type="text/javascript" src="Scripts/tipuesearch.js"></script>
-<script type="text/javascript" src="Scripts/tipuesearch_set.js"></script>
-<script type="text/javascript" src="Scripts/tipuesearch_content.js"></script>
 <script>
 $(document).ready(function() {
      $('#tipue_search_input').tipuesearch();
 });
 </script>
-<script>
-		$(function() {
 
-			$("#slideshow > div:gt(0)").hide();
-
-			setInterval(function() {
-			  $('#slideshow > div:first')
-			    .fadeOut(1000)
-			    .next()
-			    .fadeIn(1000)
-			    .end()
-			    .appendTo('#slideshow');
-			},  3000);
-
-		});
-	</script>
 </body>
 </html>

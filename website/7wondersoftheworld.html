@@ -1,77 +1,92 @@
-
 <!DOCTYPE html>
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" href="./CSS/style_searchmenu.css">
-			<link rel="stylesheet" href="./CSS/slicknav.css">
-			<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-			<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
-			<link rel="stylesheet" type="text/css" href="css/style_common.css">
-			<link rel="stylesheet" type="text/css" href="css/style1.css">
-
-
-			<title>7 Wonders of the World</title>
-		</head>
-		<body>
-			<header>
-				<div class="logo">
-        <div class="row">
-          <div class="col-a">
-							<a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:57px; margin: 7px 0 -2px 10px"></a>
-              <div class="pageName">
-                <h1>History Travel</h1>
-              </div>
-             
-              <div class="header">
-                <p> Ancient  | History | Travel | Food</p> 
-              </div>
-          </div>    
-		  
-		  
-          
-          <div class="col-b">
-            <form action="search.html">
-              <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-            </form>
-          </div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="./CSS/style_searchmenu.css">
+	<link rel="stylesheet" type="text/css" href="CSS/tipuesearch.css">
+	<link rel="stylesheet" type="text/css" href="css/style_common.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" href="CSS/slidebars.css">
+           <!-- Slidebars Theme -->
+    <link rel="stylesheet" href="CSS/slidebars-theme.css">
+	<title>7 Wonders of the Ancient World</title>
+</head>
+<body>
+		<header>
+		<div class="row">
+			<div class="col-a">
+				<div id="superhead">
+					<a href="index.html"><img src="Images/LOGO/logo1.png" alt="Logo"style= "width:118px; height:50px; margin: 7px 0 -2px 10px"></a>
+				</div>
+			</div>
+			<div class="col-b">
+					<h1 class="header">Ancient  | History | Travel | Food</h1>
+				</div>
+			<div class="col-2"><form id="search" action="search.html">
+<input type="text" name="q" id="tipue_search_input" placeholder="Search" autocomplete="off" required>
+</form></div>
+		</div>
+	</header>
+	
+	<!-- Top Navigation Bar -->
+    <div class="sb-navbar sb-slide">
+    
+      <!-- Left Slidebar control -->
+      <div class="sb-toggle-left">
+      <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
       </div>
+      
+      
+      <!-- Menu Items -->
+      <ul class="sb-navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Locations</a>
+          
+        </li>
+        <li><a href="mostvisited.html">Most Visited</a>
+      </li>
+      <li><a href="7wondersoftheworld.html">7 Wonders of the World</a>
+    </li>
+    <li><a href="blog.html">Traveler's Blog</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  
 
-			</header>
-			
-			<div class="row">
-		<div class="col-12">
-			<nav id="menu-mobile">
-				<ul id="menu">
-					<li><a href="index.html">Home</a></li>
-					
-					<li><a href="#">Locations</a>
-					<ul>
-						<li><a href="asia.html">Asia</a></li>
-						<li><a href="europe.html">Europe</a></li>
-						<li><a href="africa.html">Africa</a></li>
-						<li><a href="northamerica.html">North America</a></li>
-						<li><a href="southamerica.html">South America</a></li>
-						<li><a href="#"> Central America </a></li>
-					</ul>
-				</li>
-				<li><a href="mostvisited.html">Most Visited</a>
-			</li>
-			<li><a href="7wondersoftheworld.html">7 Wonders of the World</a>
-			<ul>
-				<li><a href="#">Ancient</a></li>
-				<li><a href="#">Modern</a></li>
-			</ul>
-		</li>
-		<li><a href="blog.html">Traveler's Blog</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="contact.html">Contact Us</a></li>
-	</ul>
-</nav>
-</div>
-</div>
-<h1>7 Wonders of the Ancient World</h1>
+
+</div> 
+    <!-- Left Slidebar -->
+    <div class="sb-slidebar sb-left"> 
+      
+      <!-- Lists in Slidebars -->
+      <ul class="sb-menu">
+        <li><a href="index.html">Home</a></li>
+
+        
+        <!-- First Dropdown Menu -->
+        <li><a class="sb-toggle-submenu" href="#">Locations<span class="sb-caret"></span></a>
+          <ul class="sb-submenu">
+            <li><a href="asia.html">Asia</a></li>
+            <li><a href="europe.html">Europe</a></li>
+            <li><a href="africa.html">Africa</a></li>
+            <li><a href="northamerica.html">North America</a></li>
+            <li><a href="southamerica.html">South America</a></li>
+            <li><a href="#"> Central America </a></li>
+
+          </ul>
+        </li>
+        
+        <li><a href="mostvisited.html">Most Visited</a></li>
+        <li><a href="#">7 Wonders of the World</a></li>
+        <li><a href="blog.html">Traveler's Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      
+    </div><!-- /.sb-slidebar .sb-left -->
+	<h1>7 Wonders of the Ancient World</h1>
 <section class="photo">
 <div>
 <ul id="exampleSlider">
@@ -81,25 +96,28 @@
     <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Miniaturk_009.jpg"  width="750px" height="550px"/></li>
 	    <li><img src="http://upload.wikimedia.org/wikipedia/commons/d/d0/House_of_the_Temple.JPG" width="750px" height="550px" /></li>
     <li><img src="http://images4.wikia.nocookie.net/__cb20090516184630/lostpedia/images/a/a1/5x16_Statue_ruins.png"  width="750px" height="550px" /></li>
-    <li><img src="http://images4.wikia.nocookie.net/__cb20090516184630/lostpedia/images/a/a1/5x16_Statue_ruins.png"  width="750px" height="550px" /></li>
+    <li><img src="https://cdn.thinglink.me/api/image/657288420896276480/1240/10/scaletowidth"  width="750px" height="550px" /></li>
 
 </ul>
 </div>
 </section>
 
+<div id="sb-site">	
+
 <section class="photo">
 <div class="anchor">
 	<ul>
-<li><a href="#The Great Pyramid of Giza">[The Great Pyramid of Giza] </a></li>
-<li><a href="#The Hanging Gardens of Babylon">[The Hanging Gardens of Babylon] </a></li>
-<li><a href="#The Statue of Zeus">[The Statue of Zeus]</a></li>
-<li><a href="#The Temple of Artemis at Ephesus">[The Temple of Artemis at Ephesus]</a></li>
-<li><a href="#The Mausoleum of Halicarnassus">The Mausoleum of Halicarnassus </a></li>
-<li><a href="#Jokhang Temple">Jokhang Temple</a></li>
-<li><a href="#Grand Palace">Grand Palace</a></li>
+<li><a href="#The Great Pyramid of Giza">Great Pyramid of Giza</a></li>
+<li><a href="#The Hanging Gardens of Babylon">Hanging Gardens of Babylon</a></li>
+<li><a href="#The Statue of Zeus">Statue of Zeus</a></li>
+<li><a href="#The Temple of Artemis at Ephesus">Temple of Artemis at Ephesus</a></li>
+<li><a href="#The Mausoleum of Halicarnassus">Mausoleum of Halicarnassus</a></li>
+<li><a href="#The Colossus of Rhodes">Colossus of Rhodes</a></li>
+<li><a href="#The Lighthouse at Alexandria">Lighthouse at Alexandria</a></li>
 </ul>
 </div>
-
+</section>
+<section>
 <div class="photos">
 	<div >
 		<p >The Seven Wonders of the Ancient World, as first recorded by Philo of Byzantium in 225 BCE in his work, 
@@ -114,10 +132,12 @@
 <div id="videoModal" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true" style="display: block;"></div>
   
   <div class="modal-body"><iframe width="640" height="360" src="https://www.youtube.com/embed/dHqxmvx5yy4" frameborder="0" allowfullscreen></iframe></div>
- 
+ <div class="modal-body"><iframe width="640" height="360" src="https://www.youtube.com/embed/dHqxmvx5yy4" frameborder="0" allowfullscreen></iframe></div>
+ <div class="modal-body"><iframe width="640" height="360" src="https://www.youtube.com/embed/dHqxmvx5yy4" frameborder="0" allowfullscreen></iframe></div>
+ <div class="modal-body"><iframe width="640" height="360" src="https://www.youtube.com/embed/dHqxmvx5yy4" frameborder="0" allowfullscreen></iframe></div>
 </div>
 </div>
-</div>
+
 </section>
 <br>
 <section class="photo">
@@ -143,7 +163,7 @@ There is no wonder why the Great Pyramid of Giza was on the list of the Seven Wo
 	</div>
 	
 </div>
-</div>
+
 </section>
 <br>
 <section class="photo">
@@ -169,7 +189,7 @@ Though some believe that the Hanging Gardens never existed, it is not outside of
 	</div>
 	
 </div>
-</div>
+
 </section>
 <br>
 <section class="photo">
@@ -194,7 +214,7 @@ The statue inspired reverence for over 800 years in its temple home in Olympia. 
 	</div>
 	
 </div>
-</div>
+
 </section>
 <br>
 <section class="photo">
@@ -221,7 +241,7 @@ Very little remains of the Artemesium. Its location was discovered in 1869, and 
 	</div>
 	
 </div>
-</div>
+
 </section>
 <br>
 <section class="photo">
@@ -247,14 +267,74 @@ Very little remains of the Artemesium. Its location was discovered in 1869, and 
 	</div>
 	
 </div>
-</div>
+
 </section>
 <br>
+
+<section class="photo">
+<div class="photos">
+<a name="The Colossus of Rhodes"></a> 
+	<h2>The Colossus of Rhodes</h2>
+		<div class="view view-first">
+	<img src="http://images4.wikia.nocookie.net/__cb20090516184630/lostpedia/images/a/a1/5x16_Statue_ruins.png" width="750px" height="550px" ></div>
+	<h2>Description</h2>
+	<div >
+		<p >The Colossus of Rhodes was a statue of the god Helios (the patron god of the island of Rhodes) constructed between 292 and 280 BCE. It stood over 110 feet (just over 33 m) high overlooking the harbor of Rhodes and, despite fanciful depictions to the contrary, stood with its legs together on a base (much like the Statue of Liberty in the harbor off New York City in the United States of America, which is modeled on the Colossus) and did not straddle the harbour. The statue was commissioned after the defeat of the invading army of Demetrius in 304 BCE. Demetrius left behind much of his siege equipment and weaponry and this was sold by the Rhodians for 300 talents (approximately 360 million U.S. dollars) which money they used to build the Colossus. The statue stood for only 56 years before it was destroyed by an earthquake in 226 BCE. It lay in impressive ruin for over 800 years, according to Strabo, and was still a tourist attraction. Pliny the Elder claims that the fingers of the Colossus were larger than most statues of his day. 
+		According to the historian Theophanes the bronze ruins were eventually sold to “a Jewish merchant of Edessa” around 654 CE who carried them away on 900 camels to be melted down.</p>
+		<p>Rhodes was a Greek island that was situated at an intersection of two ancient sea-trade routes, southwest of Asia Minor and near Egypt. When Alexander the Great died unexpectedly in 323 BC, the administration of his empire and its future were uncertain. Eventually, three of his generals took control and, as a result of several wars, divided the empire into three regions. Rhodes sided with one general, Ptolemy, who eventually controlled Egypt. Together, they forged a fruitful relationship, as well as control of trade in the eastern Mediterranean. One of the other generals, Antigonus, became riled at this, and tried to convince Rhodes to side with him. Rhodes, of course, balked at this. Antigonus then called on his son Demetrius to invade Rhodes in 305 BC. Despite an army of 40,000 men and 200 warships, Demetrius was unable to break through Rhodes' impressive defenses and the relief troops that Ptolemy had sent in.
+
+As a result of this decisive victory, it was determined that a commemorative statue be erected to honor Helios, the patron god of Rhodes. This would prove rather uncomplicated for Rhodes, as Demetrius had left behind all of the equipment he and his army had used in his invasion attempts, and thus the Rhodians were able to finance the construction of the statue with the sale of the goods.
+
+The people of Rhodes called on Greek sculptor Chares of Lindos in 294 BC to cast a giant bronze sculptural depiction of Helios. Over the course of 12 years, Chares and his men worked to complete the monument. It is generally agreed that it was forged around towers of stone blocks, standing 110 feet high. Helios stood on a 50-foot tall marble base, positioned at the entrance to Rhodes' harbour. Using materials that had been melted down from the weapons left by Demetrius, the stone towers were reinforced with iron beams and the bronze was attached to the shell. The finished statue would have likely depicted Helios standing with his legs together (though this theory differs from others), holding a torch in his right hand, and a spear in his left hand (very evocative of the Statue of Liberty in New York Harbour). The Colossus of Rhodes was completed in 280 BC.
+
+When Rhodes suffered an earthquake in 224 BC, the Colossus broke at the knees, the top portion toppling to the ground. Though Ptolemy III offered to reconstruct it, an oracle advised the Rhodians against it. Therefore, for the next 900 years the ruins of the Colossus of Rhodes lay on the ground, attracting visitors from all over the world to witness its massive scale. When the Arabs conquered Rhodes in 654 AD, the remains were broken down and transported to Syria, and likely sold piece by piece. And thus ends the story of the short-lived wonder of the ancient world, the Colossus of Rhodes. It was arguably one of the most formidable statues of ancient history, and one of the least appreciated.
+
+
+
+</p>
+		<a href="http://www.newworldencyclopedia.org/entry/Colossus_of_Rhodes" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+
+
+<section class="photo">
+<div class="photos">
+<a name="The Lighthouse at Alexandria"></a> 
+	<h2>The Lighthouse at Alexandria</h2>
+		<div class="view view-first">
+	<img src="https://cdn.thinglink.me/api/image/657288420896276480/1240/10/scaletowidth" width="750px" height="550px" ></div>
+	<h2>Description</h2>
+	<div >
+		<p >The Lighthouse at Alexandria, built on the island of Pharos, stood close to 440 feet (134 m) in height and was commissioned by Ptolemy I Soter. Construction was completed sometime around 280 BCE. 
+		The lighthouse was the third tallest human-made structure in the world (after the pyramids) and its light (a mirror which reflected the sun’s rays by day and a fire by night) could be seen as far as 35 miles out to sea. The structure rose from a square base to a middle octagonal section up to a circular top and those who saw it in its glory reported that words were inadequate to describe its beauty. 
+		The lighthouse was badly damaged in an earthquake in 956 CE, again in 1303 CE and 1323 CE and, by the year 1480 CE, it was gone. The Egyptian fort Quaitbey now stands on the site of the Pharos, built with some of the stones from the ruins of the lighthouse.</p>
+		<p>The Pharos (which has become a generic term for lighthouse) was actually located on the tiny limestone island of Pharos that sat in front of the harbor of what would become Alexandria. When Alexander the Great arrived in Egypt in 332 BC, Pharos was a shrine and home to Proteus, a sea god. When Alexander and his troops took Memphis (the ancient Egyptian capital) and defeated the occupying Persians, the Egyptian people were elated, and accepted him as their new Pharaoh.
+
+As Alexander and his troops further explored their new territory, they happened upon a small fishing village called Rhacotis. Its strategic location (on the coast) caught Alexander's eye, and he proclaimed that a new capital city, Alexandria, was to be built there. Immense and opulent, this city would be home to beautiful art and architecture, as well as all of the most influential literature in ancient history in its fabled Library.
+
+This new coastal capital of Egypt had a very horizontal quality about it, like the rest of Egypt. It also lacked any real landmarks that would aid ships in navigation there. Thus, the lighthouse was constructed on the tiny harbor island of Pharos as an aid to sailors. Later on, it would become a defensive monument as well.
+
+The Lighthouse at Alexandria was designed by the Greek architect Sostratus of Cnidus. It was constructed of a light-colored stone that was reinforced with molten lead. This would have protected the walls from crashing ocean waves (this also helped it to become one of the longest-standing monuments of the list of wonders). It stood in three levels: a lower square level with a strong core to provide support, an octagon-shaped center level, and a circular level on top. At the peak of the lighthouse was a mirror that reflected the light of the sun at day, and a fire was lit each evening.
+
+In the first century AD, the Pharos was believed to have become more than merely a navigational aid for sailing ships. Stories and legends claim that the lighthouse was used to set enemy ships ablaze in the harbor. Though many scholars refute this possibility due to technological limitations, recent experiments have shown that fires could have indeed been started using the reflective powers of the mirror and the sun (though probably not in as dramatic a fashion as reported by the ancients).
+
+The Pharos at Alexandria stood and remained in use until 2 earthquakes, in 1303 and 1323, reduced it to rubble. In 1994, underwater archaeologists located some of the remains of the lighthouse in the Alexandrian Harbor, and more have recently been located using remote imaging. Some remains of the Pharos were also used in the construction of Fort Qaitbey in the 15th century, which stands on the very same spot to this day.</p>
+		<a href="http://www.newworldencyclopedia.org/entry/Lighthouse_of_Alexandria" target="_blank" class="info">Read More</a>
+	</div>
+	
+</div>
+
+</section>
+<br>
+
 
 <p id="back-top">
 		<a href="#top"><span></span>Go Top</a>
 	</p>
-
 <div class="row">
 <div class="col-12">
 	<footer class="footer">
@@ -263,7 +343,7 @@ Very little remains of the Artemesium. Its location was discovered in 1869, and 
 				<h4>Navigation</h4>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="mostvisited.html">Most Visited Sites</a></li>
+					<li><a href="#">Gallery</a></li>
 					<li><a href="blog.html">Traveler's Blog</a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
@@ -288,12 +368,12 @@ Very little remains of the Artemesium. Its location was discovered in 1869, and 
 			<div class="mostvistedlinks">
 				<h4>Most Visted Sites</h4>
 			  	<ul>
-					<li><a href="mostvisited.html">Most</a></li>
-					<li><a href="mostvisited.html">Top</a></li>
-					<li><a href="mostvisited.html"> 10</a></li>
-					<li><a href="mostvisited.html">visited</a></li>
-					<li><a href="mostvisited.html">sites</a></li>
-					<li><a href="mostvisited.html">in the world</a></li>
+					<li><a href="#">Asia Top 10</a></li>
+					<li><a href="#">Europe Top 10</a></li>
+					<li><a href="#">Africa Top 10</a></li>
+					<li><a href="#">North America Top 10</a></li>
+					<li><a href="#">South America Top 10</a></li>
+					<li><a href="#">Central America Top 10</a></li>
 				</ul>
 			</div>
 		</div>
@@ -306,6 +386,10 @@ Very little remains of the Artemesium. Its location was discovered in 1869, and 
 				<p>1-800-Travel1(8728351)</p> <a href="http://www.luc.edu">www.luc.edu</a>
 			</div>
 		</div>
+	
+
+<div>
+		
 		<div >
 		
 		<!-- Social Media Buttons - CSS3 -->
@@ -328,25 +412,20 @@ Very little remains of the Artemesium. Its location was discovered in 1869, and 
 			</li>
 			<li class="twitter">
 				<a href="http://twitter.com/" target="_blank" class="info"><strong>Twitter</strong></a>
-	
-
-<div>
+			</li>
+		</ul>
 		
-	</footer>
+	</div>
+
 		</div>
 
-		</footer></div>
+		</footer>
 </div>
+</div>
+</div>
+</div>
+
 <script src="Scripts/js1.js"></script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="Scripts/jquery.slicknav.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav({
-prependTo:'#menu-mobile'
-});
-});
-</script>
 <script type="text/javascript" src="Scripts/tipuesearch.js"></script>
 <script type="text/javascript" src="Scripts/tipuesearch_set.js"></script>
 <script type="text/javascript" src="Scripts/tipuesearch_content.js"></script>
@@ -398,9 +477,20 @@ $(document).ready(function(){
 
 });
 </script>
-
-<script>
-$(function () {
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="Scripts/slidebars.min.js"></script>
+    <script>
+      (function($) {
+        $(document).ready(function() {
+          $.slidebars();
+        });
+      }) (jQuery);
+    </script>
+    <!-- Slidebars Theme JS
+       This should be included after you have initiated Slidebars. -->
+    <script src="Scripts/slidebars-theme.js"></script>
+	<script>
+	$(function () {
     
     /* SET PARAMETERS */
     var change_img_time 	= 5000;	
@@ -427,8 +517,6 @@ $(function () {
     setInterval(changeList, change_img_time);
 	
 });
-</script>
-
-
+	</script>
 </body>
 </html>
